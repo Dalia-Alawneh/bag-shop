@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bags Shop || Register</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/toast.css">
+    <link rel="stylesheet" href="assets/css/head.css">
+
+</head>
+
+<body>
+
+
+    <nav class="bg-white">
+        <div class="social-nav my-3">
+            <div class="container py-4 d-flex align-items-center justify-content-between">
+                <div class="icons d-flex gap-3 ">
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Facebook"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Twitter"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Linkedin"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Youtube"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
+                </div>
+                <a href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <div class="container py-5">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li class="breadcrumb-item active" aria-current="page">Register</li>
+            </ol>
+        </div>
+    </nav>
+    <main>
+        <form class="w-45 p-4 m-auto my-5 text-center" id="registerForm">
+            <h2>Register</h2>
+            <p>Please create new account and fill detail bellow.</p>
+            <div class="mb-4">
+                <input type="text" class="rounded-0 border-0 form-control" id="name" placeholder="Name">
+            </div>
+            <div class="mb-4">
+                <input type="number" class="rounded-0 border-0 form-control" id="phone" placeholder="Phone">
+            </div>
+            <div class="mb-4">
+                <input placeholder="Email" type="email" class="rounded-0 border-0 form-control" id="email">
+            </div>
+            <div class="mb-4">
+                <input placeholder="Password" type="password" class="rounded-0 border-0 form-control" id="password">
+            </div>
+            <div class="mb-4">
+                <input placeholder="Confirm Password" type="password" class="rounded-0 border-0 form-control"
+                    id="confirm_password">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <button type="submit" class="border-0 rounded-pill py-2 px-4 bg-main text-white">Submit</button>
+                <a href="login.html" class="text-decoration-none ">Already have an account?</a>
+            </div>
+        </form>
+    </main>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/toast.js"></script>
+    <script src="assets/js/register.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1278 @@
+{
+    "banners": [
+        "assets/images/banners/big_banner_1.png",
+        "assets/images/banners/big_banner_2.png",
+        "assets/images/banners/big_banner_3.png",
+        "assets/images/banners/big_banner_4.png"
+    ],
+    "products": [
+        {
+            "id": 1,
+            "mainProducts": [
+                {
+                    "id": 28,
+                    "title": "Classic School Bag",
+                    "price": 50.00,
+                    "discount": 15,
+                    "coponDate": "10/10/2023",
+                    "mainImage": "assets/images/products/classic/1.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 29,
+                    "title": "Classic School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 66.00,
+                    "discount": 10,
+                    "coponDate": "19/10/2023",
+                    "mainImage": "assets/images/products/classic/2.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 30,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 50.00,
+                    "discount": 15,
+                    "coponDate": "11/11/2023",
+                    "mainImage": "assets/images/products/classic/3.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 31,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 45.00,
+                    "discount": 0,
+                    "coponDate": "1/12/2023",
+                    "mainImage": "assets/images/products/classic/4.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 32,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 10,
+                    "coponDate": "1/1/2024",
+                    "mainImage": "assets/images/products/compression/1.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 33,
+                    "title": "Compression Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 20,
+                    "coponDate": "1/1/2023",
+                    "mainImage": "assets/images/products/compression/2.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 34,
+                    "title": "Compression Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 88.00,
+                    "discount": 20,
+                    "coponDate": "15/1/2024",
+                    "mainImage": "assets/images/products/compression/3.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 35,
+                    "title": "Hydration Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 20,
+                    "coponDate": "15/2/2024",
+                    "mainImage": "assets/images/products/hydration/1.jpg",
+                    "category": "hydration"
+                },
+                {
+                    "id": 36,
+                    "title": "Hydration Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 78.00,
+                    "discount": 10,
+                    "coponDate": "20/1/2024",
+                    "mainImage": "assets/images/products/hydration/2.webp",
+                    "category": "hydration"
+                },
+                {
+                    "id": 37,
+                    "title": "Knapsack Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "discount": 15,
+                    "coponDate": "1/1/2024",
+                    "mainImage": "assets/images/products/knapsack/1.jpg",
+                    "category": "knapsack"
+                },
+                {
+                    "id": 38,
+                    "title": "Knapsack Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 110.00,
+                    "discount": 10,
+                    "coponDate": "30/10/2023",
+                    "mainImage": "assets/images/products/knapsack/2.jpg",
+                    "category": "knapsack"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "featuredProducts": [
+                {
+                    "id": 1,
+                    "title": "Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "mainImage": "assets/images/products/laptop/1.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 2,
+                    "title": "Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "discount": 15,
+                    "coponDate": "10/11/2023",
+                    "mainImage": "assets/images/products/laptop/2.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 3,
+                    "title": "Back bag Red Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 90.00,
+                    "discount": 18,
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/laptop/3.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 4,
+                    "title": "Hand Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 125.00,
+                    "discount": 10,
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/laptop/4.webp",
+                    "category": "laptop"
+                },
+                {
+                    "id": 5,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 130.00,
+                    "mainImage": "assets/images/products/laptop/5.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 6,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "mainImage": "assets/images/products/laptop/6.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 7,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 140.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/7.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 8,
+                    "title": "Hand Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 15,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/8.webp",
+                    "category": "laptop"
+                },
+                {
+                    "id": 8,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 90.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/9.webp",
+                    "category": "laptop"
+                },
+                {
+                    "id": 9,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 50.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/school/1.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 10,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 60.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/school/2.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 11,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 69.00,
+                    "discount": 10,
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/school/3.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 12,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 45.00,
+                    "mainImage": "assets/images/products/school/4.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 13,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 10,
+                    "coponDate": "20/11/2023",
+                    "mainImage": "assets/images/products/school/5.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 14,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/6.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 15,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/7.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 16,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 88.00,
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/8.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 17,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 40.00,
+                    "discount": 10,
+                    "coponDate": "1/12/2023",
+                    "mainImage": "assets/images/products/women/1.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 18,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 55.00,
+                    "discount": 10,
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/3.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 19,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/women/4.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 20,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/women/5.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 21,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 78.00,
+                    "discount": 15,
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/6.webp",
+                    "category": "women"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "all": [
+                {
+                    "id": 32,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 10,
+                    "coponDate": "1/1/2024",
+                    "mainImage": "assets/images/products/compression/1.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 33,
+                    "title": "Compression Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 20,
+                    "coponDate": "1/1/2023",
+                    "mainImage": "assets/images/products/compression/2.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 34,
+                    "title": "Compression Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 88.00,
+                    "discount": 20,
+                    "coponDate": "15/1/2024",
+                    "mainImage": "assets/images/products/compression/3.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 35,
+                    "title": "Hydration Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 20,
+                    "coponDate": "15/2/2024",
+                    "mainImage": "assets/images/products/hydration/1.jpg",
+                    "category": "hydration"
+                },
+                {
+                    "id": 36,
+                    "title": "Hydration Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 78.00,
+                    "discount": 10,
+                    "coponDate": "20/1/2024",
+                    "mainImage": "assets/images/products/hydration/2.webp",
+                    "category": "hydration"
+                },
+                {
+                    "id": 37,
+                    "title": "Knapsack Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "discount": 15,
+                    "coponDate": "1/1/2024",
+                    "mainImage": "assets/images/products/knapsack/1.jpg",
+                    "category": "knapsack"
+                },
+                {
+                    "id": 38,
+                    "title": "Knapsack Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 110.00,
+                    "discount": 10,
+                    "coponDate": "30/10/2023",
+                    "mainImage": "assets/images/products/knapsack/2.jpg",
+                    "category": "knapsack"
+                },
+                {
+                    "id": 28,
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "title": "Classic School Bag",
+                    "price": 50.00,
+                    "discount": 15,
+                    "coponDate": "10/10/2023",
+                    "mainImage": "assets/images/products/classic/1.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 29,
+                    "title": "Classic School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 66.00,
+                    "discount": 10,
+                    "coponDate": "19/10/2023",
+                    "mainImage": "assets/images/products/classic/2.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 30,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 50.00,
+                    "discount": 15,
+                    "coponDate": "11/11/2023",
+                    "mainImage": "assets/images/products/classic/3.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 31,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 45.00,
+                    "discount": 0,
+                    "coponDate": "1/12/2023",
+                    "mainImage": "assets/images/products/classic/4.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 9,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 50.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "brand": "genie",
+                    "mainImage": "assets/images/products/school/1.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 10,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 60.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "brand": "genie",
+                    "mainImage": "assets/images/products/school/2.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 11,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 69.00,
+                    "discount": 10,
+                    "coponDate": "10/12/2023",
+                    "brand": "eastpak",
+                    "mainImage": "assets/images/products/school/3.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 12,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 45.00,
+                    "brand": "protecta",
+                    "mainImage": "assets/images/products/school/4.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 13,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 10,
+                    "coponDate": "20/11/2023",
+                    "brand": "genie",
+                    "mainImage": "assets/images/products/school/5.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 14,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 15,
+                    "brand": "genie",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/6.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 15,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 15,
+                    "brand": "genie",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/7.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 16,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 88.00,
+                    "discount": 15,
+                    "brand": "genie",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/8.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 22,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 99.00,
+                    "discount": 15,
+                    "brand": "eastpak",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/9.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 23,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 20,
+                    "brand": "tmlw",
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/school/10.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 24,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 15,
+                    "brand": "tmlw",
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/school/11.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 5,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 10,
+                    "coponDate": "1/1/2024",
+                    "mainImage": "assets/images/products/compression/1.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 6,
+                    "title": "Compression Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 20,
+                    "coponDate": "1/1/2023",
+                    "mainImage": "assets/images/products/compression/2.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 7,
+                    "title": "Compression Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 88.00,
+                    "discount": 20,
+                    "coponDate": "15/1/2024",
+                    "mainImage": "assets/images/products/compression/3.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 8,
+                    "title": "Hydration Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 20,
+                    "coponDate": "15/2/2024",
+                    "mainImage": "assets/images/products/hydration/1.jpg",
+                    "category": "hydration"
+                },
+                {
+                    "id": 9,
+                    "title": "Hydration Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 78.00,
+                    "discount": 10,
+                    "coponDate": "20/1/2024",
+                    "mainImage": "assets/images/products/hydration/2.webp",
+                    "category": "hydration"
+                },
+                {
+                    "id": 10,
+                    "title": "Knapsack Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "discount": 15,
+                    "coponDate": "1/1/2024",
+                    "mainImage": "assets/images/products/knapsack/1.jpg",
+                    "category": "knapsack"
+                },
+                {
+                    "id": 11,
+                    "title": "Knapsack Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 110.00,
+                    "discount": 10,
+                    "coponDate": "30/10/2023",
+                    "mainImage": "assets/images/products/knapsack/2.jpg",
+                    "category": "knapsack"
+                },
+                {
+                    "id": 17,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 40.00,
+                    "discount": 10,
+                    "brand": "underarmour",
+                    "coponDate": "1/12/2023",
+                    "mainImage": "assets/images/products/women/1.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 18,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 55.00,
+                    "discount": 10,
+                    "brand": "underarmour",
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/3.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 19,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 15,
+                    "brand": "coach",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/women/4.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 20,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "brand": "coach",
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/women/5.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 21,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 78.00,
+                    "brand": "coach",
+                    "discount": 15,
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/6.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 25,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 140.00,
+                    "brand": "coach",
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/women/8.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 26,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "brand": "lv",
+                    "price": 99.00,
+                    "discount": 15,
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/9.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 27,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "brand": "sanloran",
+                    "price": 105.00,
+                    "discount": 15,
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/8.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 1,
+                    "title": "Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "brand": "thue",
+                    "mainImage": "assets/images/products/laptop/1.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 2,
+                    "title": "Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "discount": 15,
+                    "brand": "thue",
+                    "coponDate": "10/11/2023",
+                    "mainImage": "assets/images/products/laptop/2.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 3,
+                    "title": "Back bag Red Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 90.00,
+                    "brand": "revacase",
+                    "discount": 18,
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/laptop/3.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 4,
+                    "title": "Hand Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 125.00,
+                    "discount": 10,
+                    "brand": "revacase",
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/laptop/4.webp",
+                    "category": "laptop"
+                },
+                {
+                    "id": 5,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 130.00,
+                    "mainImage": "assets/images/products/laptop/5.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 6,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "mainImage": "assets/images/products/laptop/6.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 7,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 140.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/7.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 8,
+                    "title": "Hand Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 15,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/8.webp",
+                    "brand": "revacase",
+                    "category": "laptop"
+                },
+                {
+                    "id": 8,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 90.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/9.webp",
+                    "category": "laptop"
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "title": "classic",
+            "image": "assets/images/products/classic/1.jpg",
+            "products": [
+                {
+                    "id": 1,
+                    "title": "Classic School Bag",
+                    "price": 50.00,
+                    "discount": 15,
+                    "coponDate": "10/10/2023",
+                    "mainImage": "assets/images/products/classic/1.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 2,
+                    "title": "Classic School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 66.00,
+                    "discount": 10,
+                    "coponDate": "19/10/2023",
+                    "mainImage": "assets/images/products/classic/2.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 3,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 50.00,
+                    "discount": 15,
+                    "coponDate": "11/11/2023",
+                    "mainImage": "assets/images/products/classic/3.jpg",
+                    "category": "classic"
+                },
+                {
+                    "id": 4,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 45.00,
+                    "discount": 0,
+                    "coponDate": "1/12/2023",
+                    "mainImage": "assets/images/products/classic/4.jpg",
+                    "category": "classic"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "compression",
+            "image": "assets/images/products/compression/1.jpg",
+            "products": [
+                {
+                    "id": 5,
+                    "title": "School Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 10,
+                    "coponDate": "1/1/2024",
+                    "mainImage": "assets/images/products/compression/1.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 6,
+                    "title": "Compression Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 20,
+                    "coponDate": "1/1/2023",
+                    "mainImage": "assets/images/products/compression/2.jpg",
+                    "category": "compression"
+                },
+                {
+                    "id": 7,
+                    "title": "Compression Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 88.00,
+                    "discount": 20,
+                    "coponDate": "15/1/2024",
+                    "mainImage": "assets/images/products/compression/3.jpg",
+                    "category": "compression"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "hydration",
+            "image": "assets/images/products/hydration/1.jpg",
+            "products": [
+                {
+                    "id": 8,
+                    "title": "Hydration Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 20,
+                    "coponDate": "15/2/2024",
+                    "mainImage": "assets/images/products/hydration/1.jpg",
+                    "category": "hydration"
+                },
+                {
+                    "id": 9,
+                    "title": "Hydration Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 78.00,
+                    "discount": 10,
+                    "coponDate": "20/1/2024",
+                    "mainImage": "assets/images/products/hydration/2.webp",
+                    "category": "hydration"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "knapsack",
+            "image": "assets/images/products/knapsack/1.jpg",
+            "products": [
+                {
+                    "id": 10,
+                    "title": "Knapsack Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "discount": 15,
+                    "coponDate": "1/1/2024",
+                    "mainImage": "assets/images/products/knapsack/1.jpg",
+                    "category": "knapsack"
+                },
+                {
+                    "id": 11,
+                    "title": "Knapsack Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 110.00,
+                    "discount": 10,
+                    "coponDate": "30/10/2023",
+                    "mainImage": "assets/images/products/knapsack/2.jpg",
+                    "category": "knapsack"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "school",
+            "image": "assets/images/products/school/2.jpg",
+            "products": [
+                {
+                    "id": 9,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 50.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "brand": "genie",
+                    "mainImage": "assets/images/products/school/1.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 10,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 60.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "brand": "genie",
+                    "mainImage": "assets/images/products/school/2.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 11,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 69.00,
+                    "discount": 10,
+                    "coponDate": "10/12/2023",
+                    "brand": "eastpak",
+                    "mainImage": "assets/images/products/school/3.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 12,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 45.00,
+                    "brand": "protecta",
+                    "mainImage": "assets/images/products/school/4.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 13,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 10,
+                    "coponDate": "20/11/2023",
+                    "brand": "genie",
+                    "mainImage": "assets/images/products/school/5.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 14,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 15,
+                    "brand": "genie",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/6.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 15,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 15,
+                    "brand": "genie",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/7.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 16,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 88.00,
+                    "discount": 15,
+                    "brand": "genie",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/8.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 22,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 99.00,
+                    "discount": 15,
+                    "brand": "eastpak",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/school/9.jpg",
+                    "category": "school"
+                },
+                {
+                    "id": 23,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 20,
+                    "brand": "tmlw",
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/school/10.webp",
+                    "category": "school"
+                },
+                {
+                    "id": 24,
+                    "title": "School Back bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "discount": 15,
+                    "brand": "tmlw",
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/school/11.jpg",
+                    "category": "school"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "women",
+            "image": "assets/images/products/women/4.webp",
+            "products": [
+                {
+                    "id": 17,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 40.00,
+                    "discount": 10,
+                    "brand": "underarmour",
+                    "coponDate": "1/12/2023",
+                    "mainImage": "assets/images/products/women/1.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 18,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 55.00,
+                    "discount": 10,
+                    "brand": "underarmour",
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/3.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 19,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 75.00,
+                    "discount": 15,
+                    "brand": "coach",
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/women/4.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 20,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "brand": "coach",
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/women/5.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 21,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 78.00,
+                    "brand": "coach",
+                    "discount": 15,
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/6.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 25,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 140.00,
+                    "brand": "coach",
+                    "discount": 15,
+                    "coponDate": "15/12/2023",
+                    "mainImage": "assets/images/products/women/8.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 26,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "brand": "lv",
+                    "price": 99.00,
+                    "discount": 15,
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/9.webp",
+                    "category": "women"
+                },
+                {
+                    "id": 27,
+                    "title": "Women Hand bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "brand": "sanloran",
+                    "price": 105.00,
+                    "discount": 15,
+                    "coponDate": "15/11/2023",
+                    "mainImage": "assets/images/products/women/8.webp",
+                    "category": "women"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "laptop",
+            "image": "assets/images/products/laptop/1.jpg",
+            "products": [
+                {
+                    "id": 1,
+                    "title": "Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 100.00,
+                    "brand": "thue",
+                    "mainImage": "assets/images/products/laptop/1.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 2,
+                    "title": "Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "discount": 15,
+                    "brand": "thue",
+                    "coponDate": "10/11/2023",
+                    "mainImage": "assets/images/products/laptop/2.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 3,
+                    "title": "Back bag Red Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 90.00,
+                    "brand": "revacase",
+                    "discount": 18,
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/laptop/3.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 4,
+                    "title": "Hand Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 125.00,
+                    "discount": 10,
+                    "brand": "revacase",
+                    "coponDate": "10/12/2023",
+                    "mainImage": "assets/images/products/laptop/4.webp",
+                    "category": "laptop"
+                },
+                {
+                    "id": 5,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 130.00,
+                    "mainImage": "assets/images/products/laptop/5.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 6,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 120.00,
+                    "mainImage": "assets/images/products/laptop/6.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 7,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 140.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/7.jpg",
+                    "category": "laptop"
+                },
+                {
+                    "id": 8,
+                    "title": "Hand Laptop Bag",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 80.00,
+                    "discount": 15,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/8.webp",
+                    "brand": "revacase",
+                    "category": "laptop"
+                },
+                {
+                    "id": 8,
+                    "title": "Back bag Laptop",
+                    "description": "Elevate your style and keep your essentials organized with our Classic Leather Messenger Bag. Crafted from high-quality genuine leather, this timeless bag combines functionality with sophistication. Whether you're heading to the office or a casual outing, this bag will complement your attire seamlessly.",
+                    "price": 90.00,
+                    "discount": 10,
+                    "coponDate": "20/12/2023",
+                    "mainImage": "assets/images/products/laptop/9.webp",
+                    "category": "laptop"
+                }
+            ]
+        }
+    ]
+}

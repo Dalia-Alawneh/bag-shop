@@ -1,0 +1,7 @@
+nav[aria-label = "breadcrumb"]{
+    background-image: url(../images/bg-breadcrumb.webp);
+}
+
+table{
+    vertical-align: middle !important;
+}

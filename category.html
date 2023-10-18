@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bags Shop</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/toast.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/head.css">
+</head>
+
+<body>
+
+    <nav class="bg-white">
+        <div class="top-nav border-bottom">
+            <div class="container py-2 d-flex justify-content-between align-items-center">
+                <span class="">Welcome to our online store</span>
+                <form action="">
+                    <select class="form-select border-0 shadow-none" aria-label="Default select example">
+                        <option selected value="ILS">Palestinian Territories (ILS <span>₪</span>)</option>
+                        <option value="EGP">Egypt (EGP)</option>
+                        <option value="USD">America (USD $)</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <div class="social-nav my-3">
+            <div class="container py-4 d-flex align-items-center justify-content-between">
+                <div class="icons d-flex gap-3 ">
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Facebook"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Twitter"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Linkedin"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Youtube"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
+                </div>
+                <a href="index.html"><img src="assets/images/home/logo.png" alt="" ></a>
+                <div class="user-nav d-flex gap-3">
+                    <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                    <a href="cart.html" type="button" class="position-relative">
+                        <i class="fa-brands fa-opencart"></i>
+                        <span id="cart-items" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
+                            0
+                        </span>
+                    </a>
+                    <div id="account">
+                        <a href="login.html" class="text-decoration-none">Login</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-3 m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blogs">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <div class="container py-5">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li class="breadcrumb-item active text-capitalize" id="category-title" aria-current="page"></li>
+            </ol>
+        </div>
+    </nav>
+    <main class="my-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="bg-secondary-subtle rounded p-3">
+                        <h2 class="fs-5 text-main text-center pt-3 pb-4 text-main fw-bolder">Filter Products</h2>
+                        <form action="" id="search" class="bg-transparent mb-4">
+                            <input type="search" class="form-control" placeholder="search product..">
+                        </form>
+                        <form action="" class="bg-transparent">
+                            <div class="d-flex gap-2 mb-3">
+                                <input type="radio" name="discount" id="all" value="all" >
+                                <label for="all">All</label>
+                            </div>
+                            <div class="d-flex gap-2 mb-3">
+                                <input type="radio" name="discount" id="discount" value="discount" >
+                                <label for="discount">Has Discount</label>
+                            </div>
+                            <div class="d-flex gap-2 mb-3">
+                                <input type="radio" name="discount" id="nodiscount" value="nodiscount" >
+                                <label for="nodiscount">No Discount</label>
+                            </div>
+                            <h3 for="price" class="d-block my-2 fs-6 text-main fw-bolder">Choose Price</h3>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="price" id="" value="10-30" >
+                                <label for="">$10 - $30</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="price" id="" value="35-60" >
+                                <label for="">$35 - $60</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="price" id="" value="65-90" >
+                                <label for="">$65 - $90</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="price" id="" value="95-more" >
+                                <label for="">$95 - more</label>
+                            </div>
+                            <h3 class="d-block my-2 fs-6 text-main fw-bolder">Choose Brand</h3>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="revacase" >
+                                <label for="" class="text-uppercase fw-semibold">revacase</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="lv" >
+                                <label for="" class="text-uppercase fw-semibold">LV</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="genie" >
+                                <label for="" class="text-uppercase fw-semibold">genie</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="protecta" >
+                                <label for="" class="text-uppercase fw-semibold">protecta</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="tmlw" >
+                                <label for="" class="text-uppercase fw-semibold">tmlw</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="eastpak" >
+                                <label for="" class="text-uppercase fw-semibold">eastpak</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="underarmour" >
+                                <label for="" class="text-uppercase fw-semibold">underarmour</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="coach" >
+                                <label for="" class="text-uppercase fw-semibold">coach</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="sanloran" >
+                                <label for="" class="text-uppercase fw-semibold">sanloran</label>
+                            </div>
+                            <div class="mb-3 d-flex gap-2">
+                                <input type="checkbox" name="brand" id="" value="thue" >
+                                <label for="" class="text-uppercase fw-semibold">thue</label>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button type="submit" class="bg-main bg-gradient w-50 text-white border-0 rounded py-2 px-3 my-3">Sumbit</button>
+                                <button type="reset" class="bg-info-subtle bg-gradient border-0 w-50 rounded py-2 px-3 my-3">Reset</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row" id="category-products"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/toast.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/global.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/category.js"></script>
+</body>
+
+</html>

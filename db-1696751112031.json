@@ -1,0 +1,10 @@
+{
+  "banners": {
+    "images": [
+      "assets/images/banners/big_banner_1.png",
+      "assets/images/banners/big_banner_2.png",
+      "assets/images/banners/big_banner_3.png",
+      "assets/images/banners/big_banner_4.png"
+    ]
+  }
+}

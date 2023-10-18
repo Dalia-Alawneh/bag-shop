@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+:root {
+    --main-color: #0b75a8
+}
+
+span,
+option,
+select,
+.form-select,
+input {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 36px;
+    color: rgb(34, 34, 34);
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+a,
+.nav-link {
+    color: #777 !important;
+}
+
+a:hover {
+    color: rgb(11, 117, 168) !important;
+}
+
+.nav-link.active {
+    color: rgb(11, 117, 168) !important;
+}
+
+.top-nav {
+    border-color: #efefef !important;
+}
+
+.user-nav i {
+    font-size: 22px;
+}
+
+.about i {
+    font-size: 30px;
+}
+
+.about span {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
+
+.banners-items .img {
+    position: relative;
+}
+
+.banners-items .img::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s opacity;
+    -webkit-transition: 0.5s opacity;
+    -moz-transition: 0.5s opacity;
+    -ms-transition: 0.5s opacity;
+    -o-transition: 0.5s opacity;
+}
+
+.banners-items .img:hover::after {
+    opacity: 0.50;
+}
+
+.products .nav-link.active,
+.products .nav-link:hover {
+    background-color: var(--main-color);
+    color: white !important;
+}
+
+.actions i {
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.actions {
+    right: -100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.actions i:hover {
+    color: var(--main-color);
+}
+
+.card:hover .actions {
+    right: 0;
+}
+
+.card {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px 1px #bfbfbf8a;
+}
+
+form{
+    background: #f3f3f3;
+}
+.w-45{
+    width: calc(100% - 40px);
+    max-width: 550px;
+}
+
+.dropdown-item.active{
+    background-color: var(--main-color) !important;
+    color: white !important; 
+}
+.countdown{
+    left: 40px;
+    bottom: 30%;
+}
+.countdown > div{   
+    width: 50px;
+    height: 50px;
+    background-color: #e2e2e2c6;
+    backdrop-filter: blur(3px);
+
+}
+.fs-7{
+    font-size: 12px;
+}
+.featured img{
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+.overlay{
+    font-size: 20px;
+    color: white; 
+    letter-spacing: 2px;
+    font-weight: bold;
+    backdrop-filter: blur(3px);
+    background-color: #00000048;
+}
+.category img{
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.category:hover img{
+    scale: 1.2;
+} 
+.navbar{
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+input[type="checkbox"],input[type="radio"]{
+    width: 40px;
+}
+
+#wishlist-data img,#category-products img{
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bags Shop</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/toast.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+    <nav class="bg-white">
+        <div class="top-nav border-bottom">
+            <div class="container py-2 d-flex justify-content-between align-items-center">
+                <span class="">Welcome to our online store</span>
+                <form action="">
+                    <select class="form-select border-0 shadow-none" aria-label="Default select example">
+                        <option selected value="ILS">Palestinian Territories (ILS <span>₪</span>)</option>
+                        <option value="EGP">Egypt (EGP)</option>
+                        <option value="USD">America (USD $)</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <div class="social-nav my-3">
+            <div class="container py-4 d-flex align-items-center justify-content-between">
+                <div class="icons d-flex gap-3 ">
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Facebook"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Twitter"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Linkedin"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Youtube"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
+                </div>
+                <a href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
+                <div class="user-nav d-flex gap-3">
+                    <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                    <a href="cart.html" type="button" class="position-relative">
+                        <i class="fa-brands fa-opencart"></i>
+                        <span id="cart-items"
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
+                            0
+                        </span>
+                    </a>
+                    <div id="account">
+                        <a href="login.html" class="text-decoration-none">Login</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-3 m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blogs">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="header mt-2">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href=""><img src="assets/images/home/slider_bag_1.webp" class="d-block w-100" alt="Bag"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img src="assets/images/home/slider_bag_2.webp" class="d-block w-100" alt="bag"></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section class="about py-5 my-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-4 col-lg-3">
+                    <div class="d-flex column-gap-3">
+                        <i class="fa-solid fa-plane-up text-main"></i>
+                        <div>
+                            <h3 class="text-capitalize fs-6">free shipping</h3>
+                            <span>Free shipping all order</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="d-flex column-gap-3">
+                        <i class="fa-solid fa-helicopter-symbol text-main"></i>
+                        <div>
+                            <h3 class="text-capitalize fs-6">Support 24/7</h3>
+                            <span>Support 24 hours a day</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="d-flex column-gap-3">
+                        <i class="fa-solid fa-rotate-left text-main"></i>
+                        <div>
+                            <h3 class="text-capitalize fs-6">Money Return</h3>
+                            <span>30 days for free return</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="d-flex column-gap-3">
+                        <i class="fa-regular fa-credit-card text-main"></i>
+                        <div>
+                            <h3 class="text-capitalize fs-6">100% Payment Secure</h3>
+                            <span>We ensure secure payment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banners mb-5">
+        <div class="container">
+            <div class="row banners-items row-gap-4 justify-content-center">
+
+            </div>
+        </div>
+    </section>
+    <section class="products text-center py-5">
+        <div class="container">
+            <h2>Our Products</h2>
+            <h3 class="fst-italic">Add our products to weekly lineup</h3>
+            <ul class="nav nav-tabs justify-content-center mt-5 border-0 gap-3" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active rounded-pill" id="home-tab" data-bs-toggle="tab"
+                        data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                        aria-selected="true">Classic</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link  rounded-pill" id="compression-tab" data-bs-toggle="tab"
+                        data-bs-target="#compression-tab-pane" type="button" role="tab"
+                        aria-controls="compression-tab-pane" aria-selected="false">Compression</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link  rounded-pill" id="hydration-tab" data-bs-toggle="tab"
+                        data-bs-target="#hydration-tab-pane" type="button" role="tab" aria-controls="hydration-tab-pane"
+                        aria-selected="false">Hydration</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link  rounded-pill" id="knapsack-tab" data-bs-toggle="tab"
+                        data-bs-target="#knapsack-tab-pane" type="button" role="tab" aria-controls="knapsack-tab-pane"
+                        aria-selected="false">Knapsack</button>
+                </li>
+
+            </ul>
+            <div class="tab-content my-5" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" data-type="classic"
+                    aria-labelledby="home-tab" tabindex="0">
+                    <div class="row ">
+                        <div class="col-md-3 product-item">
+                            <div class="card text-center p-3 position-relative overflow-hidden">
+                                <div class="actions pe-4 pt-3 position-absolute end-0">
+                                    <div class="my-2">
+                                        <i
+                                            class="fa-regular fa-heart rounded-circle shadow p-2 d-flex justify-content-center align-items-center"></i>
+                                    </div>
+                                    <div>
+                                        <i
+                                            class="fa-brands fa-opencart rounded-circle shadow p-2 d-flex justify-content-center align-items-center"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/images/products/classic/1.jpg" class="img-fluid w-100" alt="">
+                                <span>category</span>
+                                <h4 class="mt-2">title</h4>
+                                <subscript class="fw-bold text-main">$ price</subscript>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="compression-tab-pane" role="tabpanel" data-type="compression"
+                    aria-labelledby="compression-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="hydration-tab-pane" role="tabpanel" data-type="hydration"
+                    aria-labelledby="hydration-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="knapsack-tab-pane" role="tabpanel" data-type="knapsack"
+                    aria-labelledby="knapsack-tab" tabindex="0">...</div>
+
+            </div>
+        </div>
+    </section>
+    <div class="featured products text-center py-5">
+        <div class="container">
+            <h2>Featured Collection</h2>
+            <h3 class="fst-italic">Add our products to weekly lineup</h3>
+            <ul class="nav nav-tabs justify-content-center mt-5 border-0 gap-3" id="myTab2" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active rounded-pill" id="laptop-tab" data-bs-toggle="tab"
+                        data-bs-target="#laptop-tab-pane" type="button" role="tab" aria-controls="laptop-tab-pane"
+                        aria-selected="true">Laptop</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link  rounded-pill" id="school-tab" data-bs-toggle="tab"
+                        data-bs-target="#school-tab-pane" type="button" role="tab" aria-controls="school-tab-pane"
+                        aria-selected="false">School</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link  rounded-pill" id="women-tab" data-bs-toggle="tab"
+                        data-bs-target="#women-tab-pane" type="button" role="tab" aria-controls="women-tab-pane"
+                        aria-selected="false">Women</button>
+                </li>
+
+            </ul>
+            <div class="tab-content my-5" id="myTabContent">
+                <div class="tab-pane fade show active" id="laptop-tab-pane" role="tabpanel" data-type="laptop"
+                    aria-labelledby="laptop-tab" tabindex="0">
+                    1
+                </div>
+                <div class="tab-pane fade" id="school-tab-pane" role="tabpanel" data-type="school"
+                    aria-labelledby="school-tab" tabindex="0">2</div>
+                <div class="tab-pane fade" id="women-tab-pane" role="tabpanel" data-type="women"
+                    aria-labelledby="women-tab" tabindex="0">3</div>
+
+            </div>
+        </div>
+    </div>
+    <section class="my-5 pb-5" role="group" aria-label="Splide Basic HTML Example">
+        <div class="container">
+            <div class="row row-gap-3 justify-content-center" id="categories">
+                
+
+            </div>
+        </div>
+    </section>
+    <section class="products text-center my-5 pt-5">
+        <div class="container">
+            <h2>Latest Blog</h2>
+            <h3 class="fst-italic">Check our latest blog</h3>
+            <div class="splide mt-5" role="group" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="text-start">
+                                <a href=""><img src="assets/images/blogs/1.webp" class="img-fluid w-100" alt=""></a>
+                                <a href="" class="d-block my-2 text-decoration-none">The white rose for love</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="text-start">
+                                <a href=""><img src="assets/images/blogs/2.webp" class="img-fluid w-100" alt=""></a>
+                                <a href="" class="d-block my-2 text-decoration-none">The white rose for love</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="text-start">
+                                <a href=""><img src="assets/images/blogs/1.webp" class="img-fluid w-100" alt=""></a>
+                                <a href="" class="d-block my-2 text-decoration-none">The white rose for love</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor...</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="assets/js/toast.js"></script>
+    <script src="assets/js/global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/splide.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/home.js"></script>
+</body>
+
+</html>

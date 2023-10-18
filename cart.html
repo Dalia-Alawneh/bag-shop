@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bags Shop || Wishlist</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/head.css">
+    <link rel="stylesheet" href="assets/css/toast.css">
+
+</head>
+
+<body>
+
+
+    <nav class="bg-white">
+        <div class="top-nav border-bottom">
+            <div class="container py-2 d-flex justify-content-between align-items-center">
+                <span class="">Welcome to our online store</span>
+                <form action="">
+                    <select class="form-select border-0 shadow-none" aria-label="Default select example">
+                        <option selected value="ILS">Palestinian Territories (ILS <span>₪</span>)</option>
+                        <option value="EGP">Egypt (EGP)</option>
+                        <option value="USD">America (USD $)</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <div class="social-nav my-3">
+            <div class="container py-4 d-flex align-items-center justify-content-between">
+                <div class="icons d-flex gap-3 ">
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Facebook"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Twitter"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Linkedin"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Youtube"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
+                </div>
+                <a href="index.html"><img src="assets/images/home/logo.png" alt="" ></a>
+                <div class="user-nav d-flex gap-3">
+                    <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                    <a href="cart.html" type="button" class="position-relative">
+                        <i class="fa-brands fa-opencart"></i>
+                        <span id="cart-items" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
+                            0
+                        </span>
+                    </a>
+                    <div id="account">
+                        <a href="login.html" class="text-decoration-none">Login</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-3 m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blogs">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <div class="container py-5">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cart</li>
+            </ol>
+        </div>
+    </nav>
+    <main>
+        <div class="container my-5">
+            <div class="row justify-content-center text-center" id="cart-data">
+
+            </div>
+        </div>
+    </main>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/toast.js"></script>
+    <script src="assets/js/global.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/cart.js"></script>
+</body>
+
+</html>
