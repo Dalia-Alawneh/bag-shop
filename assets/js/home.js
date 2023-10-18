@@ -15,3 +15,4 @@ const displayBanners = (banners) => {
 }
 generateData(() => fetchData('banners'), displayBanners)
 generateData(() => fetchData('categories'), displayCategories)
+

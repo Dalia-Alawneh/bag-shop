@@ -101,3 +101,15 @@ function deleteProduct(id) {
         style: 'error'
     });
 }
+const checkLogin = ()=>{
+    const user = JSON.parse(localStorage.getItem('loggedInUser'))
+    if (user) {
+        window.location.href = 'checkout.html'
+    }else{
+        toasts.push({
+            title: 'ERROR',
+            content: 'Login to Checkout.',
+            style: 'error'
+        });
+    }
+}

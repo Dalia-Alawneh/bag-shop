@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: rgb(34, 34, 34);
+    min-height: 100vh;
 }
 
 :root {
@@ -196,3 +197,35 @@ input[type="checkbox"],input[type="radio"]{
     object-fit: contain;
 }
 
+footer{
+    background-color: #252525;
+    color: white;
+}
+footer li, p{
+    font-size: 14px;
+}
+footer li{
+    cursor: pointer;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+footer li:hover{
+    color: var(--main-color);
+    letter-spacing: 1px;
+}
+footer .icons i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
