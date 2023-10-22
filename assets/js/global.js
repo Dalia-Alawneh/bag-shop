@@ -49,3 +49,7 @@ const fetchData = async (data) => {
     return await response.json()
 }
 
+const isLoggedIn = () => {
+    return !! JSON.parse(localStorage.getItem('loggedInUser'))
+}
+

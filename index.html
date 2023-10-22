@@ -13,8 +13,6 @@
 </head>
 
 <body>
-
-
     <nav class="bg-white">
         <div class="top-nav border-bottom">
             <div class="container">
@@ -44,15 +42,22 @@
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
                 </div>
                 <a class="d-lg-block d-none " href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
-                <div class="user-nav d-flex justify-content-center gap-3 mt-3">
-                    <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
-                    <a href="cart.html" type="button" class="position-relative">
+               <div class="user-nav d-flex justify-content-center gap-3 mt-3">
+                    <a href="wishlist.html" class="position-relative">
+                        <i class="fa-regular fa-heart"></i>
+                        <span id="wishlist-items"
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
+                            0
+                        </span>
+                    </a>
+                    <a href="cart.html" class="position-relative">
                         <i class="fa-brands fa-opencart"></i>
                         <span id="cart-items"
                             class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
                             0
                         </span>
                     </a>
+                    
                     <div id="account">
                         <a href="login.html" class="text-decoration-none">Login</a>
                     </div>

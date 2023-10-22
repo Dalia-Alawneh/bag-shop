@@ -100,11 +100,6 @@ function deleteProduct(id) {
         confirmButtonText: 'Yes, delete it!'
     }).then((result) => {
         if (result.isConfirmed) {
-            // Swal.fire(
-            //     'Deleted!',
-            //     'Your file has been deleted.',
-            //     'success'
-            // )
             let cart = getDataFromLocalStorage('cart')
             cart = cart.filter((product) => product.id !== id)
             saveToLocalStorage('cart', cart)
@@ -120,8 +115,7 @@ function deleteProduct(id) {
 
 }
 const checkLogin = () => {
-    const user = JSON.parse(localStorage.getItem('loggedInUser'))
-    if (user) {
+    if (isLoggedIn) {
         window.location.href = 'checkout.html'
     } else {
         toasts.push({

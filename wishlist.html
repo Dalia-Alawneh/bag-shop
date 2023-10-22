@@ -7,6 +7,7 @@
     <title>Bags Shop || Wishlist</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/head.css">
     <link rel="stylesheet" href="assets/css/toast.css">
@@ -45,15 +46,22 @@
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
                 </div>
                 <a class="d-lg-block d-none " href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
-                <div class="user-nav d-flex justify-content-center gap-3 mt-3">
-                    <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
-                    <a href="cart.html" type="button" class="position-relative">
+               <div class="user-nav d-flex justify-content-center gap-3 mt-3">
+                    <a href="wishlist.html" class="position-relative">
+                        <i class="fa-regular fa-heart"></i>
+                        <span id="wishlist-items"
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
+                            0
+                        </span>
+                    </a>
+                    <a href="cart.html" class="position-relative">
                         <i class="fa-brands fa-opencart"></i>
                         <span id="cart-items"
                             class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
                             0
                         </span>
                     </a>
+                    
                     <div id="account">
                         <a href="login.html" class="text-decoration-none">Login</a>
                     </div>
@@ -170,6 +178,7 @@
         Copyright © 2022 Shoee | Built with by <span class="text-main fw-bold">Dalia Alawneh</span>.
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
     <script src="assets/js/toast.js"></script>
     <script src="assets/js/global.js"></script>
 

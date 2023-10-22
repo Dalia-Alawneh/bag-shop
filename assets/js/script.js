@@ -149,7 +149,7 @@ const getDataFromLocalStorage = (name) => {
 
 let wishlist = getDataFromLocalStorage('wishlist') ?? []
 let cart = getDataFromLocalStorage('cart') ?? []
-
+document.getElementById('wishlist-items').textContent = wishlist.length
 function calculateCartItems(cart) {
     let items = cart.reduce((reducer, curr) => {
         return { quantity: reducer.quantity + curr.quantity };
