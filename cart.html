@@ -7,6 +7,7 @@
     <title>Bags Shop || Wishlist</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/head.css">
     <link rel="stylesheet" href="assets/css/toast.css">
@@ -16,22 +17,24 @@
 <body>
 
 
-    <nav class="bg-white">
+     <nav class="bg-white">
         <div class="top-nav border-bottom">
-            <div class="container py-2 d-flex justify-content-between align-items-center">
-                <span class="">Welcome to our online store</span>
-                <form action="">
-                    <select class="form-select border-0 shadow-none" aria-label="Default select example">
-                        <option selected value="ILS">Palestinian Territories (ILS <span>₪</span>)</option>
-                        <option value="EGP">Egypt (EGP)</option>
-                        <option value="USD">America (USD $)</option>
-                    </select>
-                </form>
+            <div class="container">
+                <div class=" py-2 row justify-content-center justify-content-sm-between align-items-center">
+                    <div class="col-md-6 text-center text-md-start">Welcome to our online store</div>
+                    <form class="col-md-3 text-center text-md-end bg-transparent" action="">
+                        <select class="border-0 shadow-none" aria-label="Default select example">
+                            <option selected value="ILS">Palestinian Territories (ILS <span>₪</span>)</option>
+                            <option value="EGP">Egypt (EGP)</option>
+                            <option value="USD">America (USD $)</option>
+                        </select>
+                    </form>
+                </div>
             </div>
         </div>
         <div class="social-nav my-3">
-            <div class="container py-4 d-flex align-items-center justify-content-between">
-                <div class="icons d-flex gap-3 ">
+            <div class="container py-4 d-sm-flex align-items-center justify-content-center justify-content-sm-between">
+                <div class="icons d-flex gap-3 justify-content-center">
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Facebook"><i
                             class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Twitter"><i
@@ -42,12 +45,13 @@
                             class="fa-brands fa-youtube"></i></a>
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
                 </div>
-                <a href="index.html"><img src="assets/images/home/logo.png" alt="" ></a>
-                <div class="user-nav d-flex gap-3">
+                <a class="d-lg-block d-none " href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
+                <div class="user-nav d-flex justify-content-center gap-3 mt-3">
                     <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
                     <a href="cart.html" type="button" class="position-relative">
                         <i class="fa-brands fa-opencart"></i>
-                        <span id="cart-items" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
+                        <span id="cart-items"
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-main">
                             0
                         </span>
                     </a>
@@ -60,33 +64,39 @@
         </div>
         <div class="navbar navbar-expand-lg">
             <div class="container">
+                <a class="d-block d-lg-none" href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                <div class="collapse navbar-collapse pt-3" id="navbarSupportedContent">
                     <ul class="navbar-nav gap-3 m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#blogs">Blog</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#products">Products</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#featured-products">Featured Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blogs">Blog</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#shop">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </nav>
@@ -164,6 +174,7 @@
         Copyright © 2022 Shoee | Built with by <span class="text-main fw-bold">Dalia Alawneh</span>.
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
     <script src="assets/js/toast.js"></script>
     <script src="assets/js/global.js"></script>
     <script src="assets/js/script.js"></script>

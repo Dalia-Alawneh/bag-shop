@@ -17,20 +17,22 @@
 
     <nav class="bg-white">
         <div class="top-nav border-bottom">
-            <div class="container py-2 d-flex justify-content-between align-items-center">
-                <span class="">Welcome to our online store</span>
-                <form action="">
-                    <select class="form-select border-0 shadow-none" aria-label="Default select example">
-                        <option selected value="ILS">Palestinian Territories (ILS <span>₪</span>)</option>
-                        <option value="EGP">Egypt (EGP)</option>
-                        <option value="USD">America (USD $)</option>
-                    </select>
-                </form>
+            <div class="container">
+                <div class=" py-2 row justify-content-center justify-content-sm-between align-items-center">
+                    <div class="col-md-6 text-center text-md-start">Welcome to our online store</div>
+                    <form class="col-md-3 text-center text-md-end bg-transparent" action="">
+                        <select class="border-0 shadow-none" aria-label="Default select example">
+                            <option selected value="ILS">Palestinian Territories (ILS <span>₪</span>)</option>
+                            <option value="EGP">Egypt (EGP)</option>
+                            <option value="USD">America (USD $)</option>
+                        </select>
+                    </form>
+                </div>
             </div>
         </div>
         <div class="social-nav my-3">
-            <div class="container py-4 d-flex align-items-center justify-content-between">
-                <div class="icons d-flex gap-3 ">
+            <div class="container py-4 d-sm-flex align-items-center justify-content-center justify-content-sm-between">
+                <div class="icons d-flex gap-3 justify-content-center">
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Facebook"><i
                             class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Twitter"><i
@@ -41,8 +43,8 @@
                             class="fa-brands fa-youtube"></i></a>
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
                 </div>
-                <a href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
-                <div class="user-nav d-flex gap-3">
+                <a class="d-lg-block d-none " href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
+                <div class="user-nav d-flex justify-content-center gap-3 mt-3">
                     <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
                     <a href="cart.html" type="button" class="position-relative">
                         <i class="fa-brands fa-opencart"></i>
@@ -60,33 +62,39 @@
         </div>
         <div class="navbar navbar-expand-lg">
             <div class="container">
+                <a class="d-block d-lg-none" href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                <div class="collapse navbar-collapse pt-3" id="navbarSupportedContent">
                     <ul class="navbar-nav gap-3 m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#blogs">Blog</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#products">Products</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#featured-products">Featured Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blogs">Blog</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#shop">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
     </nav>
@@ -110,7 +118,7 @@
             </button>
         </div>
     </header>
-    <section class="about py-5 my-5">
+    <section class="about py-5 my-5" id="about">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-4 col-lg-3">
@@ -159,7 +167,7 @@
             </div>
         </div>
     </section>
-    <section class="products text-center py-5">
+    <section class="products text-center py-5" id="products">
         <div class="container">
             <h2>Our Products</h2>
             <h3 class="fst-italic">Add our products to weekly lineup</h3>
@@ -221,7 +229,7 @@
             </div>
         </div>
     </section>
-    <div class="featured products text-center py-5">
+    <div class="featured products text-center py-5" id="featured-products">
         <div class="container">
             <h2>Featured Collection</h2>
             <h3 class="fst-italic">Add our products to weekly lineup</h3>
@@ -264,7 +272,7 @@
             </div>
         </div>
     </section>
-    <section class="products text-center my-5 pt-5">
+    <section class="text-center my-5 pt-5" id="blogs">
         <div class="container">
             <h2>Latest Blog</h2>
             <h3 class="fst-italic">Check our latest blog</h3>
@@ -298,7 +306,7 @@
 
         </div>
     </section>
-    <footer class="mt-5 py-5">
+    <footer class="mt-5 py-5" id="contact">
         <div class="container py-4">
             <div class="row">
                 <div class="col-lg-3 col-md-6">

@@ -67,7 +67,7 @@ function displayCart(cart) {
                     </td>
                     <td id="total-${product.id}">
                         ${product.quantity
-                        ? product.discount
+                    ? product.discount
                         ? `$${((product.price - product.discount) * product.quantity).toFixed(2)}`
                         : `$${(product.price * product.quantity).toFixed(2)}`
                     : `$${product.price.toFixed(2)}`
@@ -90,22 +90,40 @@ function displayCart(cart) {
 
 generateData(() => getDataFromLocalStorage('cart'), displayCart)
 function deleteProduct(id) {
-    let cart = getDataFromLocalStorage('cart')
-    cart = cart.filter((product) => product.id !== id)
-    saveToLocalStorage('cart', cart)
-    displayCart(cart)
-    calculateCartItems(cart)
-    toasts.push({
-        title: 'Warning',
-        content: 'Product Deleted.',
-        style: 'error'
-    });
+    Swal.fire({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            // Swal.fire(
+            //     'Deleted!',
+            //     'Your file has been deleted.',
+            //     'success'
+            // )
+            let cart = getDataFromLocalStorage('cart')
+            cart = cart.filter((product) => product.id !== id)
+            saveToLocalStorage('cart', cart)
+            displayCart(cart)
+            calculateCartItems(cart)
+            toasts.push({
+                title: 'Warning',
+                content: 'Product Deleted.',
+                style: 'error'
+            });
+        }
+    })
+
 }
-const checkLogin = ()=>{
+const checkLogin = () => {
     const user = JSON.parse(localStorage.getItem('loggedInUser'))
     if (user) {
         window.location.href = 'checkout.html'
-    }else{
+    } else {
         toasts.push({
             title: 'ERROR',
             content: 'Login to Checkout.',
