@@ -53,3 +53,9 @@ const isLoggedIn = () => {
     return !! JSON.parse(localStorage.getItem('loggedInUser'))
 }
 
+const saveToLocalStorage = (name, value) => {
+    localStorage.setItem(name, JSON.stringify(value))
+}
+const getDataFromLocalStorage = (name) => {
+    return JSON.parse(localStorage.getItem(name))
+}

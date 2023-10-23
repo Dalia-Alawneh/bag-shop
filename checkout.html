@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bags Shop || Wishlist</title>
+    <title>Bags Shop || Checkout</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -16,7 +16,7 @@
 <body>
 
 
-     <nav class="bg-white">
+    <nav class="bg-white">
         <div class="top-nav border-bottom">
             <div class="container">
                 <div class=" py-2 row justify-content-center justify-content-sm-between align-items-center">
@@ -45,7 +45,7 @@
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
                 </div>
                 <a class="d-lg-block d-none " href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
-               <div class="user-nav d-flex justify-content-center gap-3 mt-3">
+                <div class="user-nav d-flex justify-content-center gap-3 mt-3">
                     <a href="wishlist.html" class="position-relative">
                         <i class="fa-regular fa-heart"></i>
                         <span id="wishlist-items"
@@ -60,7 +60,7 @@
                             0
                         </span>
                     </a>
-                    
+
                     <div id="account">
                         <a href="login.html" class="text-decoration-none">Login</a>
                     </div>
@@ -116,11 +116,119 @@
         </div>
     </nav>
     <main>
-        
+        <form class="w-50 p-4 m-auto my-5 text-center">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <input type="text" class="rounded-0 border-0 form-control" id="firstname" placeholder="First Name">
+                </div>
+                <div class="col-md-6 mb-4">
+                    <input type="text" class="rounded-0 border-0 form-control" id="lastname" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="mb-4">
+                <input type="number" class="rounded-0 border-0 form-control" id="phone" placeholder="Phone">
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <input type="text" class="rounded-0 border-0 form-control" id="counrty" placeholder="Country">
+                </div>
+                <div class="col-md-6 mb-4">
+                    <input type="text" class="rounded-0 border-0 form-control" id="city" placeholder="City">
+                </div>
+            </div>
+            <div class="mb-4">
+                <input type="text" class="rounded-0 border-0 form-control" id="address" placeholder="Street Address">
+            </div>
+
+            <div class="mb-4">
+                <input type="text" class="rounded-0 border-0 form-control" id="postcode" placeholder="Postal Code">
+            </div>
+            <div class="my-2 bg-white p-3">
+                <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2">
+                    <div class="text-main fs-4 text-bold">Total:</div>
+                    <div id="total" class="text-secondary text-bold fs-4">$44</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2">
+                    <div class="text-main fs-4 text-bold">Shipping:</div>
+                    <div id="shipping" class="text-secondary text-bold fs-4">$30</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2">
+                    <div class="text-main fs-4 text-bold">Taxes:</div>
+                    <div id="taxes" class="text-secondary text-bold fs-4">--</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center pb-2 mb-2">
+                    <div class="text-main fs-4 text-bold">SubTotal:</div>
+                    <div id="subtotal" class="text-secondary text-bold fs-4">$44</div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-end mt-3">
+                <button type="submit" class="border-0 rounded-pill py-2 px-4 bg-main text-white">Confirm</button>
+            </div>
+        </form>
     </main>
+    <footer class="mt-5 py-5" id="contact">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <img src="assets/images/home/logowhite.webp" alt="">
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <h4 class="fs-6">Information</h4>
+                        <ul class="list-unstyled mt-4">
+                            <li class="mb-2">Store Location</li>
+                            <li class="mb-2">Orders Tracking</li>
+                            <li class="mb-2">Contact Us</li>
+                            <li class="mb-2">Delivery Information</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <h4 class="fs-6">Contact Us</h4>
+                        <ul class="list-unstyled mt-4">
+                            <li class="mb-2"><i class="fa-solid fa-house text-main pe-2"></i> 9856-4890-55 London UK
+                            </li>
+                            <li class="mb-2"><i class="fa-solid fa-envelope text-main pe-2"></i> demo@yourdomain.com
+                            </li>
+                            <li class="mb-2"><i class="fa-solid fa-phone text-main pe-2"></i> (012) 555 666 789-333</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <h4 class="fs-6">Follow Us</h4>
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consec tetur adipiscing elit.</p>
+
+                        <div class="icons d-flex gap-2 mt-5">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Facebook"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Twitter"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Linkedin"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Youtube"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i
+                                    class="fa-brands fa-vimeo-v"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-dark py-5 text-center text-white">
+        Copyright © 2022 Shoee | Built with by <span class="text-main fw-bold">Dalia Alawneh</span>.
+    </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/toast.js"></script>
     <script src="assets/js/global.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/checkout.js"></script>
 
 </body>
 

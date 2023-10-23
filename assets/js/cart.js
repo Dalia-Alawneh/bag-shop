@@ -59,7 +59,7 @@ function displayCart(cart) {
                 <tr>
                     <td class="w-25"><img src="${product.mainImage}" class="w-100 img-fluid" alt="${product.title}"></td>
                     <td>${product.title}</td>
-                    <td>${product.discount ? `$${(product.price - product.discount).toFixed(2)}` : `$${product.price.toFixed(2)}`}</td>
+                    <td>${product.discount ? `$${(product.price - (product.price * (product.discount / 100))).toFixed(2)}` : `$${product.price.toFixed(2)}`}</td>
                     <td>
                         <button class="bg-main text-white border-0 shadow" onclick="decrementQuantity(${product.id})">-</button>
                         <span id="quantity-${product.id}">${product.quantity ?? 1}</span>
@@ -68,7 +68,7 @@ function displayCart(cart) {
                     <td id="total-${product.id}">
                         ${product.quantity
                     ? product.discount
-                        ? `$${((product.price - product.discount) * product.quantity).toFixed(2)}`
+                        ? `$${((product.price - (product.price * (product.discount / 100))) * product.quantity).toFixed(2)}`
                         : `$${(product.price * product.quantity).toFixed(2)}`
                     : `$${product.price.toFixed(2)}`
                 }

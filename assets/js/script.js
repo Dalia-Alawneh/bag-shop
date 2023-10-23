@@ -140,12 +140,7 @@ generateData(() => fetchData('products/1'), displayProducts)
 generateData(() => fetchData('products/2'), displayFeatruedProducts)
 
 
-const saveToLocalStorage = (name, value) => {
-    localStorage.setItem(name, JSON.stringify(value))
-}
-const getDataFromLocalStorage = (name) => {
-    return JSON.parse(localStorage.getItem(name))
-}
+
 
 let wishlist = getDataFromLocalStorage('wishlist') ?? []
 let cart = getDataFromLocalStorage('cart') ?? []
@@ -170,23 +165,31 @@ const addProductToWishlist = (product) => {
     });
 }
 const addProductToCart = (product) => {
-    const productInCart = cart.find((productInCart) => productInCart.id === product.id);
-
-    if (productInCart) {
-        productInCart.quantity++;
-        console.log(productInCart);
-    } else {
-        product.quantity = 1;
-        cart.push(product);
+    if(isLoggedIn()){
+        const productInCart = cart.find((productInCart) => productInCart.id === product.id);
+    
+        if (productInCart) {
+            productInCart.quantity++;
+            console.log(productInCart);
+        } else {
+            product.quantity = 1;
+            cart.push(product);
+        }
+    
+        saveToLocalStorage('cart', cart);
+        calculateCartItems(cart)
+        toasts.push({
+            title: 'Success',
+            content: 'Added to Cart Successfully.',
+            style: 'success'
+        });
+    }else{
+        toasts.push({
+            title: 'Error',
+            content: 'Login to Add Products to Cart.',
+            style: 'error'
+        });
     }
-
-    saveToLocalStorage('cart', cart);
-    calculateCartItems(cart)
-    toasts.push({
-        title: 'Success',
-        content: 'Added to cart successfully.',
-        style: 'success'
-    });
 };
 
 
