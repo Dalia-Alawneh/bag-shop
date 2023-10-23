@@ -77,11 +77,11 @@ console.log(calculateTimeRemaining(product.coponDate, product.id) );
             <a href="product.html?id=${product.id}"><img src="${product.mainImage}" class="img-fluid w-100" alt="${product.title}"></a>
             <span>${product.category}</span>
             <h4 class="mt-2">${product.title}</h4> 
-            ${product.discount ?
-                `<div class="d-flex gap-1 justify-content-center">
+            ${product.discount == 0 || calculateTimeRemaining(product.coponDate, product.id)   ?
+                 `<span class="fw-bold text-main">$${(product.price).toFixed(2)}</span>`
+                 :`<div class="d-flex gap-1 justify-content-center">
                 <span class="text-main text-decoration-line-through text-secondary">$${product.price.toFixed(2)}</span> <span class="fw-bold text-main">$${(product.price - product.discount).toFixed(2)}</span>
-                </div>`
-                : `<span class="fw-bold text-main">$${(product.price).toFixed(2)}</span>`}
+                </div>`}
 
                 <div class="countdown mt-3 d-flex gap-2 position-absolute" id="countdown-${product.id}">
                     

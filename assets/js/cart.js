@@ -79,6 +79,7 @@ function displayCart(cart) {
         result += `
                 </tbody>
             </table>`;
+
     }
 
 
@@ -105,6 +106,7 @@ function deleteProduct(id) {
             saveToLocalStorage('cart', cart)
             displayCart(cart)
             calculateCartItems(cart)
+            displayCheckoutBtn()
             toasts.push({
                 title: 'Warning',
                 content: 'Product Deleted.',
@@ -112,7 +114,6 @@ function deleteProduct(id) {
             });
         }
     })
-
 }
 const checkLogin = () => {
     if (isLoggedIn) {
@@ -125,3 +126,16 @@ const checkLogin = () => {
         });
     }
 }
+
+function displayCheckoutBtn() {
+    let res = ``
+    if (cart.length > 0) {
+        res = `
+            <button class="border-0 bg-main text-white rounded px-3 py-2" onclick="checkLogin()">Checkout</button>  
+        `
+    } else {
+        res = ``
+    }
+    document.getElementById('cart-checkout').innerHTML = res
+}
+displayCheckoutBtn()

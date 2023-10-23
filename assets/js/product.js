@@ -10,8 +10,8 @@ const displayProduct = (product) => {
         <h3>${product.category}</h3>
         <p>${product.brand ?? ''}</p>
         <p>${product.description}</p>
-        <span class="rounded-pill bg-danger text-white fs-6 bg-gradient px-3 py-1">${product.discount}% off</span>
-        <div class="countdown mt-3 d-flex gap-2 text-center my-3" id="countdown-${product.id}"></div>
+        ${product.discount?`<span class="rounded-pill bg-danger text-white fs-6 bg-gradient px-3 py-1">${product.discount}% off</span>`:''}
+        <div class="countdown mt-3 position-relative d-flex gap-2 text-center my-3" id="countdown-${product.id}"></div>
         ${product.discount ?
             `<div class="d-flex gap-1 mt-3 align-items-center fs-4">
             <span class="text-main text-decoration-line-through text-secondary fs-5">$${product.price.toFixed(2)}</span> <span class="fw-bold text-main fs-4">$${(product.price - product.discount).toFixed(2)}</span>

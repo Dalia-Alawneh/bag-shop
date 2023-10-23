@@ -1,5 +1,6 @@
+const searchElement = document.getElementById("search")
 
-const displayProductsByCategory = (products)=>{
+const displayProductsByCategory = (products) => {
     console.log(products);
     let result = `<div class="row align-items-stretch row-gap-3">`
     products.forEach((product) => {
@@ -7,7 +8,7 @@ const displayProductsByCategory = (products)=>{
         result += `
         <div class="col-md-4 product-item ">
         <div class="card text-center p-4 h-100 position-relative overflow-hidden ">
-        ${calculateTimeRemaining(product.coponDate, product.id) ? '': `<div class="position-absolute start-0 rounded-pill bg-danger text-white fs-7 bg-gradient px-2 ms-3">${product.discount?'- '+product.discount+"%":''}</div>` }
+        <div class="position-absolute start-0 rounded-pill bg-danger text-white fs-7 bg-gradient px-2 ms-3">${product.discount ? '- ' + product.discount + "%" : ''}</div>
             <div class="actions pe-4 pt-3 position-absolute">
                 <div class="my-2" onclick="addProductToWishlist(${JSON.stringify(product).replace(/"/g, '&quot;')})">
                     <i class="fa-regular fa-heart rounded-circle bg-white shadow p-2 d-flex justify-content-center align-items-center"></i>
@@ -33,12 +34,19 @@ const displayProductsByCategory = (products)=>{
 
     document.getElementById('category-products').innerHTML = result
 }
-const generateDataByCategory =async () => {
+const generateDataByCategory = async () => {
     const id = getParam('id')
     const data = await fetchData(`categories/${id}`)
     displayProductsByCategory(data.products)
-    document.getElementById('category-title').textContent =`${data.title} Category`
-}   
+    document.getElementById('category-title').textContent = `${data.title} Category`
+    return data.products;
+}
 generateDataByCategory()
 
 
+const searchProductByCategory =async (searchTerm) => {
+    const products = await generateDataByCategory()
+    const filteredProducts = products.filter((product) => product.title.toLowerCase().includes(searchTerm.toLowerCase()))
+    displayProductsByCategory(filteredProducts)
+}
+searchElement.addEventListener('input', () => searchProductByCategory(searchElement.value))
