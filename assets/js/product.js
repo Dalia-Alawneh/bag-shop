@@ -14,7 +14,7 @@ const displayProduct = (product) => {
         <div class="countdown mt-3 position-relative d-flex gap-2 text-center my-3" id="countdown-${product.id}"></div>
         ${product.discount ?
             `<div class="d-flex gap-1 mt-3 align-items-center fs-4">
-            <span class="text-main text-decoration-line-through text-secondary fs-5">$${product.price.toFixed(2)}</span> <span class="fw-bold text-main fs-4">$${(product.price - product.discount).toFixed(2)}</span>
+            <span class="text-main text-decoration-line-through text-secondary fs-5">$${product.price.toFixed(2)}</span> <span class="fw-bold text-main fs-4">$${(product.price - (product.price * (product.discount / 100))).toFixed(2)}</span> 
             </div>`
             : `<span class="fw-bold text-main fs-4">$${(product.price).toFixed(2)}</span>`}
             <div>

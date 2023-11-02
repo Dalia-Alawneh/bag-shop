@@ -59,3 +59,22 @@ const saveToLocalStorage = (name, value) => {
 const getDataFromLocalStorage = (name) => {
     return JSON.parse(localStorage.getItem(name))
 }
+
+let wishlist = getDataFromLocalStorage('wishlist') ?? []
+let cart = getDataFromLocalStorage('cart') ?? []
+document.getElementById('wishlist-items').textContent = wishlist.length
+function calculateCartItems(cart) {
+    let items = cart.reduce((reducer, curr) => {
+        return { quantity: reducer.quantity + curr.quantity };
+    }, { quantity: 0 });
+
+    document.getElementById('cart-items').textContent = items.quantity;
+}
+
+calculateCartItems(cart)
+document.getElementById('wishlist-items').textContent = wishlist.length
+
+setTimeout(() => {
+    const loadingElement = document.querySelector('.loading');
+    loadingElement.classList.add('opacity-0', 'invisible');
+}, 1600);

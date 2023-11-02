@@ -10,6 +10,14 @@ body {
     --main-color: #0b75a8
 }
 
+td {
+    width: 150px;
+}
+
+tr {
+    overflow: scroll;
+}
+
 span,
 option,
 select,
@@ -132,56 +140,65 @@ a:hover {
     box-shadow: 0px 0px 10px 1px #bfbfbf8a;
 }
 
-form{
+form {
     background: #f3f3f3;
 }
-.w-45{
+
+.w-45 {
     width: calc(100% - 40px);
     max-width: 550px;
 }
 
-.dropdown-item.active{
+.dropdown-item.active {
     background-color: var(--main-color) !important;
-    color: white !important; 
+    color: white !important;
 }
-.countdown{
+
+.countdown {
     left: 50%;
     bottom: 30%;
     transform: translateX(-50%);
 }
-.countdown > div{   
+
+.countdown>div {
     width: 50px;
     height: 50px;
     background-color: #e2e2e2c6;
     backdrop-filter: blur(3px);
 
 }
-.fs-7{
+
+.fs-7 {
     font-size: 12px;
 }
-.featured img{
+
+.featured img {
     aspect-ratio: 1/1;
     object-fit: contain;
 }
-.overlay{
+
+.overlay {
     font-size: 20px;
-    color: white; 
+    color: white;
     letter-spacing: 2px;
     font-weight: bold;
     backdrop-filter: blur(3px);
     background-color: #00000048;
 }
-.category img{
+
+.category img {
     transition: 0.6s;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -ms-transition: 0.6s;
     -o-transition: 0.6s;
 }
-.category:hover img{
+
+.category:hover img {
     scale: 1.2;
-} 
-.navbar{
+}
+
+.navbar {
     transition: 0.4s;
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
@@ -189,23 +206,28 @@ form{
     -o-transition: 0.4s;
 }
 
-input[type="checkbox"],input[type="radio"]{
+input[type="checkbox"],
+input[type="radio"] {
     width: 40px;
 }
 
-#wishlist-data img,#category-products img{
+#wishlist-data img,
+#category-products img {
     aspect-ratio: 1/1;
     object-fit: contain;
 }
 
-footer{
+footer {
     background-color: #252525;
     color: white;
 }
-footer li, p{
+
+footer li,
+p {
     font-size: 14px;
 }
-footer li{
+
+footer li {
     cursor: pointer;
     transition: 0.6s;
     -webkit-transition: 0.6s;
@@ -213,11 +235,13 @@ footer li{
     -ms-transition: 0.6s;
     -o-transition: 0.6s;
 }
-footer li:hover{
+
+footer li:hover {
     color: var(--main-color);
     letter-spacing: 1px;
 }
-footer .icons i{
+
+footer .icons i {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -231,6 +255,119 @@ footer .icons i{
     -o-border-radius: 50%;
 }
 
-select{
+select {
     outline: none;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 5000;
+    background-color: rgba(48, 67, 77, 0.821);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    backdrop-filter: blur(5px);
+}
+
+.loader {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #fff;
+    border: 8px solid #131a1d;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.loader::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #263238;
+    z-index: 5;
+    border-bottom: 8px solid #131a1d;
+    box-sizing: border-box;
+    animation: eyeShade 3s infinite;
+}
+
+.loader::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    width: 32px;
+    z-index: 2;
+    height: 32px;
+    background: #111;
+    border-radius: 50%;
+    animation: eyeMove 3s infinite;
+}
+
+@keyframes eyeShade {
+    0% {
+        transform: translateY(0)
+    }
+
+    20% {
+        transform: translateY(5px)
+    }
+
+    40%,
+    50% {
+        transform: translateY(-5px)
+    }
+
+    60% {
+        transform: translateY(-8px)
+    }
+
+    75% {
+        transform: translateY(5px)
+    }
+
+    100% {
+        transform: translateY(10px)
+    }
+}
+
+@keyframes eyeMove {
+    0% {
+        transform: translate(0, 0)
+    }
+
+    20% {
+        transform: translate(0px, 5px)
+    }
+
+    40%,
+    50% {
+        transform: translate(0px, -5px)
+    }
+
+    60% {
+        transform: translate(-10px, -5px)
+    }
+
+    75% {
+        transform: translate(-20px, 5px)
+    }
+
+    100% {
+        transform: translate(0, 10px)
+    }
 }

@@ -4,4 +4,4 @@ const totalPrice = cart.reduce((total, product) => {
 }, 0);
 
 document.getElementById('total').innerHTML = `$${totalPrice}`
-document.getElementById('subtotal').innerHTML = `$${totalPrice + 30}`
+document.getElementById('subtotal').innerHTML = `$${totalPrice + 8}`

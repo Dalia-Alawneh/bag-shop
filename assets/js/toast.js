@@ -86,9 +86,9 @@ class Toasts {
                         this.openToast(this.stack[i]);
                     }
                 }
-                if (toast.props.dismissAfter) {
-                    this.closeToast(toast, toast.props.dismissAfter);
-                }
+                setTimeout(() => {
+                    this.closeToast(toast);
+                }, 1000);
             }
         });
         for (let i = 0; i < this.stack.length; i++) {
@@ -104,6 +104,7 @@ class Toasts {
         }
         return true;
     }
+    
 
     closeToast(toast, delay = null) {
         if (this.isOpening() === true) {

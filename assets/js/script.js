@@ -11,19 +11,19 @@ const generateData = async (callback, display) => {
 
 const calculateTimeRemaining = (couponDate, id) => {
     let expired = false;
-    if(!couponDate){
+    if (!couponDate) {
         return expired
     }
     const countdownInterval = setInterval(() => {
         const now = new Date();
         const [day, month, year] = couponDate.split('/').map(Number);
-        const targetDate = new Date(year, month - 1, day); 
+        const targetDate = new Date(year, month - 1, day);
 
         const timeRemaining = targetDate - now;
 
         if (timeRemaining <= 0) {
             clearInterval(countdownInterval);
-            expired = true;  
+            expired = true;
             return;
         }
 
@@ -56,16 +56,16 @@ const calculateTimeRemaining = (couponDate, id) => {
 }
 
 
-const generateProductHTML = (products,id) => {
+const generateProductHTML = (products, id) => {
     console.log(products);
     let result = `<div class="row justify-content-center align-items-stretch row-gap-3">`
     products.forEach((product) => {
 
-console.log(calculateTimeRemaining(product.coponDate, product.id) );
+        console.log(calculateTimeRemaining(product.coponDate, product.id));
         result += `
-        <div class="col-md-3 product-item ">
+        <div class="col-lg-3 col-md-6 product-item ">
         <div class="card text-center p-4 h-100 position-relative overflow-hidden ">
-        ${calculateTimeRemaining(product.coponDate, product.id) ? '': `<div class="position-absolute start-0 rounded-pill bg-danger text-white fs-7 bg-gradient px-2 ms-3">${product.discount?'- '+product.discount+"%":''}</div>` }
+        ${calculateTimeRemaining(product.coponDate, product.id) ? '' : `<div class="position-absolute start-0 rounded-pill bg-danger text-white fs-7 bg-gradient px-2 ms-3">${product.discount ? '- ' + product.discount + "%" : ''}</div>`}
             <div class="actions pe-4 pt-3 position-absolute">
                 <div class="my-2" onclick="addProductToWishlist(${JSON.stringify(product).replace(/"/g, '&quot;')})">
                     <i class="fa-regular fa-heart rounded-circle bg-white shadow p-2 d-flex justify-content-center align-items-center"></i>
@@ -77,10 +77,10 @@ console.log(calculateTimeRemaining(product.coponDate, product.id) );
             <a href="product.html?id=${product.id}"><img src="${product.mainImage}" class="img-fluid w-100" alt="${product.title}"></a>
             <span>${product.category}</span>
             <h4 class="mt-2">${product.title}</h4> 
-            ${product.discount == 0 || calculateTimeRemaining(product.coponDate, product.id)   ?
-                 `<span class="fw-bold text-main">$${(product.price).toFixed(2)}</span>`
-                 :`<div class="d-flex gap-1 justify-content-center">
-                <span class="text-main text-decoration-line-through text-secondary">$${product.price.toFixed(2)}</span> <span class="fw-bold text-main">$${(product.price - product.discount).toFixed(2)}</span>
+            ${product.discount == 0 || calculateTimeRemaining(product.coponDate, product.id) ?
+                `<span class="fw-bold text-main">$${(product.price).toFixed(2)}</span>`
+                : `<div class="d-flex gap-1 justify-content-center">
+                <span class="text-main text-decoration-line-through text-secondary">$${product.price.toFixed(2)}</span> <span class="fw-bold text-main">$${(product.price - (product.price * (product.discount / 100))).toFixed(2)}</span>
                 </div>`}
 
                 <div class="countdown mt-3 d-flex gap-2 position-absolute" id="countdown-${product.id}">
@@ -102,7 +102,7 @@ const displayProducts = (products) => {
     tabPanes.forEach((pane) => {
         const dataType = pane.getAttribute('data-type');
         const filteredProducts = products.mainProducts.filter(product => product.category === dataType);
-        pane.innerHTML = generateProductHTML(filteredProducts,1);
+        pane.innerHTML = generateProductHTML(filteredProducts, 1);
     });
 };
 const displayFeatruedProducts = (products) => {
@@ -111,7 +111,7 @@ const displayFeatruedProducts = (products) => {
     tabPanes.forEach((pane) => {
         const dataType = pane.getAttribute('data-type');
         const filteredProducts = products.featuredProducts.filter(product => product.category === dataType);
-        pane.innerHTML = generateProductHTML(filteredProducts,2);
+        pane.innerHTML = generateProductHTML(filteredProducts, 2);
     });
 };
 const displayCategories = (categories) => {
@@ -142,22 +142,12 @@ generateData(() => fetchData('products/2'), displayFeatruedProducts)
 
 
 
-let wishlist = getDataFromLocalStorage('wishlist') ?? []
-let cart = getDataFromLocalStorage('cart') ?? []
-document.getElementById('wishlist-items').textContent = wishlist.length
-function calculateCartItems(cart) {
-    let items = cart.reduce((reducer, curr) => {
-        return { quantity: reducer.quantity + curr.quantity };
-    }, { quantity: 0 });
 
-    document.getElementById('cart-items').textContent = items.quantity;
-}
-
-calculateCartItems(cart)
 
 const addProductToWishlist = (product) => {
     wishlist.push(product)
     saveToLocalStorage('wishlist', wishlist)
+    document.getElementById('wishlist-items').textContent = wishlist.length
     toasts.push({
         title: 'Success',
         content: 'Added to wishlist successfully.',
@@ -165,9 +155,9 @@ const addProductToWishlist = (product) => {
     });
 }
 const addProductToCart = (product) => {
-    if(isLoggedIn()){
+    if (isLoggedIn()) {
         const productInCart = cart.find((productInCart) => productInCart.id === product.id);
-    
+
         if (productInCart) {
             productInCart.quantity++;
             console.log(productInCart);
@@ -175,7 +165,7 @@ const addProductToCart = (product) => {
             product.quantity = 1;
             cart.push(product);
         }
-    
+
         saveToLocalStorage('cart', cart);
         calculateCartItems(cart)
         toasts.push({
@@ -183,7 +173,7 @@ const addProductToCart = (product) => {
             content: 'Added to Cart Successfully.',
             style: 'success'
         });
-    }else{
+    } else {
         toasts.push({
             title: 'Error',
             content: 'Login to Add Products to Cart.',

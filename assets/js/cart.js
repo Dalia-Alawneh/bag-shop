@@ -38,6 +38,7 @@ function decrementQuantity(id) {
 
 function displayCart(cart) {
     let result = `
+    <div class="table-responsive">
         <table class="table">
             <thead>
                 <tr>
@@ -78,7 +79,8 @@ function displayCart(cart) {
         });
         result += `
                 </tbody>
-            </table>`;
+            </table>
+            </div>`;
 
     }
 

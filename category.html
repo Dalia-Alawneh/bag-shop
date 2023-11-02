@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bags Shop</title>
+    <title>Bags Shop || Category</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
@@ -14,8 +14,10 @@
 </head>
 
 <body>
-
-     <nav class="bg-white">
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+    <nav class="bg-white">
         <div class="top-nav border-bottom">
             <div class="container">
                 <div class=" py-2 row justify-content-center justify-content-sm-between align-items-center">
@@ -44,7 +46,7 @@
                     <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
                 </div>
                 <a class="d-lg-block d-none " href="index.html"><img src="assets/images/home/logo.png" alt=""></a>
-               <div class="user-nav d-flex justify-content-center gap-3 mt-3">
+                <div class="user-nav d-flex justify-content-center gap-3 mt-3">
                     <a href="wishlist.html" class="position-relative">
                         <i class="fa-regular fa-heart"></i>
                         <span id="wishlist-items"
@@ -59,7 +61,7 @@
                             0
                         </span>
                     </a>
-                    
+
                     <div id="account">
                         <a href="login.html" class="text-decoration-none">Login</a>
                     </div>
@@ -117,92 +119,94 @@
     <main class="my-5 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-5">
                     <div class="bg-secondary-subtle rounded p-3">
                         <h2 class="fs-5 text-main text-center pt-3 pb-4 text-main fw-bolder">Filter Products</h2>
-                        <form action=""  class="bg-transparent mb-4">
+                        <form action="" class="bg-transparent mb-4">
                             <input type="search" id="search" class="form-control" placeholder="search product..">
                         </form>
-                        <form action="" class="bg-transparent">
+                        <form action="" class="bg-transparent" id="filterForm">
                             <div class="d-flex gap-2 mb-3">
-                                <input type="radio" name="discount" id="all" value="all" >
+                                <input type="radio" name="discount" id="all" value="all">
                                 <label for="all">All</label>
                             </div>
                             <div class="d-flex gap-2 mb-3">
-                                <input type="radio" name="discount" id="discount" value="discount" >
+                                <input type="radio" name="discount" id="discount" value="discount">
                                 <label for="discount">Has Discount</label>
                             </div>
                             <div class="d-flex gap-2 mb-3">
-                                <input type="radio" name="discount" id="nodiscount" value="nodiscount" >
+                                <input type="radio" name="discount" id="nodiscount" value="nodiscount">
                                 <label for="nodiscount">No Discount</label>
                             </div>
                             <h3 for="price" class="d-block my-2 fs-6 text-main fw-bolder">Choose Price</h3>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="price" id="" value="10-30" >
+                                <input type="checkbox" name="price" id="" value="10-30">
                                 <label for="">$10 - $30</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="price" id="" value="35-60" >
+                                <input type="checkbox" name="price" id="" value="35-60">
                                 <label for="">$35 - $60</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="price" id="" value="65-90" >
+                                <input type="checkbox" name="price" id="" value="65-90">
                                 <label for="">$65 - $90</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="price" id="" value="95-more" >
-                                <label for="">$95 - more</label>
+                                <input type="checkbox" name="price" id="" value="95-200">
+                                <label for="">$95 - $200</label>
                             </div>
                             <h3 class="d-block my-2 fs-6 text-main fw-bolder">Choose Brand</h3>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="revacase" >
+                                <input type="checkbox" name="brand" id="" value="revacase">
                                 <label for="" class="text-uppercase fw-semibold">revacase</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="lv" >
+                                <input type="checkbox" name="brand" id="" value="lv">
                                 <label for="" class="text-uppercase fw-semibold">LV</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="genie" >
+                                <input type="checkbox" name="brand" id="" value="genie">
                                 <label for="" class="text-uppercase fw-semibold">genie</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="protecta" >
+                                <input type="checkbox" name="brand" id="" value="protecta">
                                 <label for="" class="text-uppercase fw-semibold">protecta</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="tmlw" >
+                                <input type="checkbox" name="brand" id="" value="tmlw">
                                 <label for="" class="text-uppercase fw-semibold">tmlw</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="eastpak" >
+                                <input type="checkbox" name="brand" id="" value="eastpak">
                                 <label for="" class="text-uppercase fw-semibold">eastpak</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="underarmour" >
+                                <input type="checkbox" name="brand" id="" value="underarmour">
                                 <label for="" class="text-uppercase fw-semibold">underarmour</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="coach" >
+                                <input type="checkbox" name="brand" id="" value="coach">
                                 <label for="" class="text-uppercase fw-semibold">coach</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="sanloran" >
+                                <input type="checkbox" name="brand" id="" value="sanloran">
                                 <label for="" class="text-uppercase fw-semibold">sanloran</label>
                             </div>
                             <div class="mb-3 d-flex gap-2">
-                                <input type="checkbox" name="brand" id="" value="thue" >
+                                <input type="checkbox" name="brand" id="" value="thue">
                                 <label for="" class="text-uppercase fw-semibold">thue</label>
                             </div>
                             <div class="d-flex gap-2">
-                                <button type="submit" class="bg-main bg-gradient w-50 text-white border-0 rounded py-2 px-3 my-3">Sumbit</button>
-                                <button type="reset" class="bg-info-subtle bg-gradient border-0 w-50 rounded py-2 px-3 my-3">Reset</button>
+                                <button type="submit"
+                                    class="bg-main bg-gradient w-50 text-white border-0 rounded py-2 px-3 my-3">Sumbit</button>
+                                <button type="reset"
+                                    class="bg-info-subtle bg-gradient border-0 w-50 rounded py-2 px-3 my-3">Reset</button>
                             </div>
                         </form>
-                        
+
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9 col-md-7">
                     <div class="row" id="category-products"></div>
                 </div>
             </div>
@@ -213,8 +217,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div>
-                        <img src="assets/images/home/logowhite.webp" alt="">
-                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor..</p>
+                       <img src="assets/images/home/logo.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -232,8 +235,10 @@
                     <div>
                         <h4 class="fs-6">Contact Us</h4>
                         <ul class="list-unstyled mt-4">
-                            <li class="mb-2"><i class="fa-solid fa-house text-main pe-2"></i> 9856-4890-55 London UK</li>
-                            <li class="mb-2"><i class="fa-solid fa-envelope text-main pe-2"></i> demo@yourdomain.com</li>
+                            <li class="mb-2"><i class="fa-solid fa-house text-main pe-2"></i> 9856-4890-55 London UK
+                            </li>
+                            <li class="mb-2"><i class="fa-solid fa-envelope text-main pe-2"></i> demo@yourdomain.com
+                            </li>
                             <li class="mb-2"><i class="fa-solid fa-phone text-main pe-2"></i> (012) 555 666 789-333</li>
                         </ul>
                     </div>
@@ -252,7 +257,8 @@
                                     class="fa-brands fa-linkedin-in"></i></a>
                             <a href="#" data-bs-toggle="tooltip" data-bs-title="Youtube"><i
                                     class="fa-brands fa-youtube"></i></a>
-                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i class="fa-brands fa-vimeo-v"></i></a>
+                            <a href="#" data-bs-toggle="tooltip" data-bs-title="Vimeo"><i
+                                    class="fa-brands fa-vimeo-v"></i></a>
                         </div>
                     </div>
                 </div>
@@ -265,7 +271,7 @@
     <script src="assets/js/toast.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/global.js"></script>
-    <!-- <script src="assets/js/script.js"></script> -->
+    <script src="assets/js/script.js"></script>
     <script src="assets/js/category.js"></script>
 </body>
 

@@ -37,6 +37,7 @@ function deleteProduct(id) {
             wishlist = getDataFromLocalStorage('wishlist')
             wishlist = wishlist.filter((product) => product.id !== id)
             saveToLocalStorage('wishlist', wishlist)
+            document.getElementById('wishlist-items').textContent = wishlist.length
             displayWishlist(wishlist)
             toasts.push({
                 title: 'Warning',
@@ -45,5 +46,7 @@ function deleteProduct(id) {
             });
         }
     })
+    
+
 
 }
